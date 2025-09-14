@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D & M Deliveries - Storefront</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f8f8f8; }
+    h1 { text-align: center; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; margin-top: 20px; }
+    .item { background: white; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+    img { max-width: 100%; border-radius: 8px; }
+    .price { font-weight: bold; color: #333; margin-top: 5px; }
+    embed { width: 100%; height: 600px; margin-top: 30px; border: 1px solid #ccc; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>D & M Deliveries - Fashion Storefront</h1>
+  <div class="grid">
+    <div class="item">
+      <img src="https://source.unsplash.com/200x200/?dress,fashion" alt="Dress">
+      <p>Elegant Dress</p>
+      <p class="price">$39.99</p>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/200x200/?shoes,fashion" alt="Shoes">
+      <p>Classic Shoes</p>
+      <p class="price">$59.99</p>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/200x200/?bag,fashion" alt="Bag">
+      <p>Stylish Bag</p>
+      <p class="price">$45.00</p>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/200x200/?jewelry,fashion" alt="Jewelry">
+      <p>Luxury Jewelry</p>
+      <p class="price">$120.00</p>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/200x200/?tshirt,fashion" alt="T-shirt">
+      <p>Casual T-shirt</p>
+      <p class="price">$19.99</p>
+    </div>
+  </div>
+
+  <h2 style="text-align:center; margin-top:40px;">Catalog Preview</h2>
+  <embed type="application/pdf" src="data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgaHR0cDovL3d3dy5yZXBvcnRsYWIuY29tCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChcKGFub255bW91c1wpKSAvQ3JlYXRpb25EYXRlIChEOjIwMjUwOTE0MTUzMjU2KzAwJzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjUwOTE0MTUzMjU2KzAwJzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSB3d3cucmVwb3J0bGFiLmNvbSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChcKGFub255bW91c1wpKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCA2NzAKPj4Kc3RyZWFtCkdhc0llZ01ZYiIlIjdrT25BLU5hIWNeWmJwIkVzdDppJkQvcT9NVU85aUU7RmsraUlbcFMyOUA7Nz4vM09HSChcNEdQKyQrWVsoOl5SJi9UUmhpL0YmV2ZCVyRuKiYkbTVPZ2c8a2crWDlPZ0BNOjFWNHROSXE0LlwiSC5MVW5hal0jcmlJO2Y9KWFIIyEhSCNbdDtkYD5la1FOcXAidW5HQUZzSykqR1kiXGNbPWQqIz4lIiRMVSJVXkBvVENkKFZobiJnXyptV2QxN1s/QkxBRFUoVlRKT1olV1lORk0qLl9WXV5MV2RZU0sxQlVOb1F1TjUhTFpiXzxFTElhcUBHJV5FN11NdS9RTHRQLShzLDwxQV0xMDwnM09UTTpFOyQ1TEtsXS1SdThsMl1eTCM+RHAoTDNyJkloTGRobCMmZjFUSSlGLSFAYWFAVD00J0hmN14uKyYkLiYzL1tMWWdJZFRlbS8wR0xPcUJZTz0xUGcmOHI9N2k3IWpHPVVSLDNhYSVBSjhJQ0VwNCtIbWxtUGZyOWZ1MSY0PUphZTFpVWVQSGwuPlMoYV9CIzxYbFg1cTNtPlVDSVBjISFoU1kudFAiYUEvTmBJIzMncHVgKG8/UWghVEkyJCFbOHMla3AyYTw8KHFaMyM5W202bzBRaTVpZC1bVzosMWNVQ1I8KkArRV01RzlhTC5XKy0pYjswMzkkUlZoJF1bNydlWWs4cVJpXT9nNWlIMEUjYyRDRDdnWk9bIjY4UlpAb0o9S0dDJFZmNyxUb2pqS25JKUduWzc5JHIvXVI4SmhHUGo9OSsxbmAnKVBiTyxKRCEiSyEtPGxuJVBLSEFbajxMc2ktc1F0P20ob2ZgazZ1XSRrPGlLTnI7ZTBVQHBUfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA3MyAwMDAwMCBuIAowMDAwMDAwMTE0IDAwMDAwIG4gCjAwMDAwMDAyMjEgMDAwMDAgbiAKMDAwMDAwMDMzMyAwMDAwMCBuIAowMDAwMDAwNTI2IDAwMDAwIG4gCjAwMDAwMDA1OTQgMDAwMDAgbiAKMDAwMDAwMDg3NyAwMDAwMCBuIAowMDAwMDAwOTM2IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDAwNjViY2Y1NjM1M2E0OTAzMzdkMjE4Y2JlODk1ZDZiPjwwMDY1YmNmNTYzNTNhNDkwMzM3ZDIxOGNiZTg5NWQ2Yj5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChodHRwOi8vd3d3LnJlcG9ydGxhYi5jb20pCgovSW5mbyA2IDAgUgovUm9vdCA1IDAgUgovU2l6ZSA5Cj4+CnN0YXJ0eHJlZgoxNjk2CiUlRU9GCg=="/>
+</body>
+</html>
